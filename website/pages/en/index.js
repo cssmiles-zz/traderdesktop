@@ -104,17 +104,21 @@ const Features = () => (
   <Block layout="fourColumn">
     {[
       {
+        content: 'Apply architectural principles like SOLID, Domain Driven Design etc.',
+        title: 'Application Architecture',
+      },
+      {
+        content: 'Tesability',
+        title: 'Feature Two',
+      },
+      {
         content: 'This is the content of my feature',
-        image: imgUrl('docusaurus.svg'),
-        imageAlign: 'top',
         title: 'Feature One',
       },
       {
-        content: 'The content of my second feature',
-        image: imgUrl('docusaurus.svg'),
-        imageAlign: 'top',
-        title: 'Feature Two',
-      },
+        content: 'This is the content of my feature',
+        title: 'Feature One',
+      }
     ]}
   </Block>
 );
@@ -123,8 +127,8 @@ const FeatureCallout = () => (
   <div
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <h2>Feature Callout</h2>
-    <MarkdownBlock>These are features of this project</MarkdownBlock>
+    <h2>Evaluation Metrics</h2>
+    <MarkdownBlock>These are features of this project </MarkdownBlock>
   </div>
 );
 
@@ -212,6 +216,8 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <VisualClue/>
+          <h2 style={{textAlign: 'center'}}>Evaluation Metrics</h2>
+          <Features/>
 
         </div>
       </div>

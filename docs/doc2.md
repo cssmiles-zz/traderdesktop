@@ -19,12 +19,14 @@ The system receives market prices for all equities of interest. This information
 Finally, the system is able to send alerts to individual users, e.g. when a new order has been entered for a trader.
 
 ## Use cases
-For the prototype below use-cases need to be fullfilled.
+For the prototype, following use-cases need to be fullfilled.
+
 As a Fund Manager:
 * I should be able to place trades from a list of stocks - *maintain a hard code list of stocks in you app*
 * I should be able to see real-time status of all my orders
-... order -  A order consists of stock symbol, buy/sell and quantity
-..* The status of an order depends on the total quantity of the order, the quantity placed and the quantity executed.
+
+    order -  A order consists of stock symbol, buy/sell and quantity
+    The status of an order depends on the total quantity of the order, the quantity placed and the quantity executed.
 * I should be able to filter the status of orders by Open, Done/Executed and All 
 * At any give time for a stock, I should be able to see total quantity, commited and executed quantity
 * I should be able to clear all the trades
