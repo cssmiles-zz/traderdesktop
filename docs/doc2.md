@@ -34,8 +34,14 @@ As a Fund Manager:
 
 
 ## Trader Server
-#todo add details
-
+Download/Clone the `trader-desktop-server` application from (TBD) and run 
+```bash
+$ yarn install 
+$ yarn start
+# if you prefer you can use npm instead of yarn
+```
+To verify that the application is working correctly, point your browser to http://localhost:8080/orders - you should see a response with a list of orders in JSON format. 
+Since **the persistence layer is in memory**, the list will be empty.
 ### Load all orders 
 
 ```bash
@@ -119,7 +125,6 @@ ws.onmessage = (event : any) => {
 | `nextPlacementTime`      | Next trade placement time in milliseconds, `null` if all trades placed |
 | `nextExecutionTime`      | Next trade execution time in milliseconds, `null` if all trades executed |
 
-> At start when there are no orders
 
 ### To reset orders 
 Clears orders stored in the server

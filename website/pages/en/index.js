@@ -96,28 +96,22 @@ const Block = props => (
     padding={['bottom', 'top']}
     id={props.id}
     background={props.background}>
-    <GridBlock align="center" contents={props.children} layout={props.layout} />
+    <GridBlock align={props.alignment ? props.alignment : "center"} contents={props.children} layout={props.layout} />
   </Container>
 );
 
 const Features = () => (
-  <Block layout="fourColumn">
+  <Block layout="twoColumn" alignment="left" className="alignRight">
     {[
       {
-        content: 'Apply architectural principles like SOLID, Domain Driven Design etc.',
-        title: 'Application Architecture',
+        title: 'Architecture and Coding Standard',
+        content: '<ul><li>Architectural principles like SOLID, Domain Driven Design etc.<i>You can use MobX, Redux for State Management</i></li><li> ES6/Typescript Features and best practices</li><li> Code organization and readability </li><li>CSS/Sass best practices.<i>You can use Bootstrap, Material UI to style your app</i></li></ul>'
+        
       },
       {
-        content: 'Tesability',
-        title: 'Feature Two',
-      },
-      {
-        content: 'This is the content of my feature',
-        title: 'Feature One',
-      },
-      {
-        content: 'This is the content of my feature',
-        title: 'Feature One',
+        
+        title: 'Solution Completeness and Correctness',
+        content: '<ul><li>Presentation</li><li>Use cases handled</li><li>Error handling</li><li>Unit tests</li></ul>'
       }
     ]}
   </Block>
