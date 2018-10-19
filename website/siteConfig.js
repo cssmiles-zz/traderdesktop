@@ -29,7 +29,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'trader-desktop',
-  organizationName: 'Publicis.Sapient',
+  organizationName: '',
   // For top-level user or org sites, the organization is still the same.
   
 
@@ -67,7 +67,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Publicis.Sapient`,
+  copyright: `Copyright © ${new Date().getFullYear()}`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
