@@ -105,7 +105,7 @@ const Features = () => (
     {[
       {
         title: 'Architecture and Coding Standard',
-        content: '<ul><li>Architectural principles like SOLID, Domain Driven Design etc.<i>You can use MobX, Redux for State Management</i></li><li> ES6/Typescript Features and best practices</li><li> Code organization and readability </li><li>CSS/Sass best practices.<i>You can use Bootstrap, Material UI to style your app</i></li></ul>'
+        content: '<ul><li>Architectural principles like SOLID, Domain Driven Design etc.<i>You can use MobX, Redux for State Management</i></li><li> ES6/Typescript Features and best practices</li><li> Code organization and readability </li><li>CSS/Sass best practices.<i>You can use any library such as Bootstrap or Material UI to style your app</i></li></ul>'
         
       },
       {
