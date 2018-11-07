@@ -1,6 +1,6 @@
 ---
-id: serverapi
-title: Problem Statement
+id: serverapipdf
+title: Problem Statement 
 ---
 Build a trader desktop *prototype* for fund managers to buy and sell stocks. The application should also show real-time graphical representation of status of trades
 
@@ -36,18 +36,12 @@ As a Fund Manager:
 * I should be able to clear all the trades
 * I should be able to place a random set of orders with buy/sell side
 
+## Tools
+You will be provided with backend services and api documentation to send, load and reset orders and an api to listen to the updates.
+
+You can use front end tech stack of your choice preferably React or Angular. For state management, you can use MobX, Redux etc. and Bootstrap or Material UI for styling your app.
+
 ## API
-
-Download/Clone the `trader-desktop-server` application from (https://github.com/cssmiles/hackathon) and run 
-```bash
-$ yarn install 
-$ yarn start
-# if you prefer you can use npm instead of yarn
-```
-To verify that the application is working correctly, point your browser to http://localhost:8080/orders - you should see a response with a list of orders in JSON format. 
-Since **the persistence layer is in memory**, the list will be empty.
-### Load all orders 
-
 ```bash
 GET https://localhost:8080/orders
 ```
