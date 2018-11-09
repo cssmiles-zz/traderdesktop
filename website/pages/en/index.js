@@ -207,13 +207,14 @@ class Index extends React.Component {
 
     return (
       <div>
-        <HomeSplash language={language} />
+        <h1><b>The event is over!</b></h1>
+        {/** <HomeSplash language={language} />
         <div className="mainContainer">
           <VisualClue/>
           <h2 style={{textAlign: 'center'}}>Evaluation Metrics</h2>
           <Features/>
 
-        </div>
+    </div>**/}
       </div>
     );
   }
