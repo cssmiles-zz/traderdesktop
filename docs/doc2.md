@@ -41,6 +41,7 @@ As a Fund Manager:
 Download/Clone the `trader-desktop-server` application from (https://github.com/cssmiles/hackathon) and run 
 ```bash
 $ yarn install 
+$ yarn build 
 $ yarn start
 # if you prefer you can use npm instead of yarn
 ```
